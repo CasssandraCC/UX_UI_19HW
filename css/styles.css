@@ -81,7 +81,7 @@
   .carddeck {
     display: flex;
     gap: 16px;
-    border-color: hotpink;
+    
   
   }
   
@@ -89,11 +89,12 @@
     height: 39rem;
   }
   
-  .navbar-item {
-    background-color: #eaeaea;
-    transition: background-color 0.3s ease;
-  }
+  .cardUX.hover,
+.bpb {
+    transform: scale(1.1);
+    box-shadow: 15px 15px 20px lightpink;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
   
-  .navbar-item.hovered {
-    background-color: rgb(247, 190, 199);
-  }
